@@ -54,10 +54,19 @@ const Footer = () => {
                             We have clothes that suits your style and which you're proud to wear. From women to men.
                         </Typography>
                         <Stack direction="row" spacing={1.5}>
-                            {[Twitter, Facebook, Instagram, GitHub].map((Icon, i) => (
+                            {[
+                                { Icon: Twitter, url: 'https://www.youtube.com/@VladimirShaitan' },
+                                { Icon: Facebook, url: 'https://www.youtube.com/@VladimirShaitan' },
+                                { Icon: Instagram, url: 'https://www.youtube.com/@VladimirShaitan' },
+                                { Icon: GitHub, url: 'https://www.youtube.com/@VladimirShaitan' }
+                            ].map(({ Icon, url }, i) => (
                                 <IconButton
                                     key={i}
                                     size="small"
+                                    component="a"
+                                    href={url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     sx={footerStyles.socialButton}
                                 >
                                     <Icon fontSize="small" />
