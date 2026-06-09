@@ -1,8 +1,7 @@
 import Navbar from "@components/reusableComponents/navbar.jsx";
 import Footer from "@components/reusableComponents/footer.jsx";
 import { Box } from "@mui/material";
-import CategoryPageComponent from "@components/categoryPageComponents/categoryPageComponent.jsx";
-
+import CategoryPageComponent from "@components/CategoryPageComponents/categoryPageComponent.jsx";
 const CategoryPage = () => {
 
     return (

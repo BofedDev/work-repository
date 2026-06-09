@@ -3,7 +3,7 @@ import HomePage from "@pages/HomePage/HomePage";
 import ProductDetailPage from "@pages/ProductDetailPage/ProductDetailPage";
 import CategoryPage from "@pages/CategoryPage/categoryPage.jsx";
 import CartPage from "@pages/CartPage/CartPage.jsx";
-import Navbar from "@components/reusableComponents/Navbar.jsx";       // поправь путь под свой проект
+import Navbar from "@components/reusableComponents/navbar.jsx";
 import Breadcrumbs from "./Breadcrumbs.jsx";
 
 const RootLayout = () => (
