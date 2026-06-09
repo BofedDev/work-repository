@@ -17,8 +17,8 @@
     "@mui/material": "^9.0.0",
     "@reduxjs/toolkit": "^2.11.2",
     "prop-types": "^15.8.1",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-hook-form": "^7.73.1",
     "react-redux": "^9.2.0",
     "react-router": "^7.14.2",
@@ -34,5 +34,18 @@
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.5.0",
     "vite": "^8.0.9"
-  }
+  },
+  "description": "Video - https://youtu.be/dgn_mDWcFtI\r Тема: Розробка клієнтської частини інтернет-магазину з використанням React\r Мета проєкту: Створити сучасний вебзастосунок інтернет-магазину з адаптивним інтерфейсом, каталогом товарів, пошуком, фільтрацією, авторизацією, кошиком та оформленням замовлення.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BofedDev/work-repository.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BofedDev/work-repository/issues"
+  },
+  "homepage": "https://github.com/BofedDev/work-repository#readme"
 }
