@@ -36,7 +36,7 @@
     "vite": "^8.0.9"
   },
   "description": "Video - https://youtu.be/dgn_mDWcFtI\r Тема: Розробка клієнтської частини інтернет-магазину з використанням React\r Мета проєкту: Створити сучасний вебзастосунок інтернет-магазину з адаптивним інтерфейсом, каталогом товарів, пошуком, фільтрацією, авторизацією, кошиком та оформленням замовлення.",
-  "main": "eslint.config.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BofedDev/work-repository.git"
